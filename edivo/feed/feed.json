@@ -1,0 +1,167 @@
+{
+ "version": 1,
+ "templates": [
+  {
+   "id": "weekend",
+   "name": "Weekend recap",
+   "blurb": "Six quick moments with a handwritten title",
+   "aspect": "PORTRAIT_9_16",
+   "slotMs": [
+    1800,
+    1400,
+    1400,
+    1400,
+    1400,
+    2600
+   ],
+   "transition": "SLIDE_LEFT",
+   "transitionMs": 350,
+   "filter": "WARM",
+   "photoMotion": [
+    "ZOOM_IN",
+    "PAN_RIGHT",
+    "PAN_LEFT"
+   ],
+   "texts": [
+    {
+     "text": "This weekend",
+     "slot": 0,
+     "y": 0.4,
+     "size": 0.085,
+     "font": "CAVEAT",
+     "anim": "POP"
+    },
+    {
+     "text": "until next time",
+     "slot": 5,
+     "y": 0.82,
+     "size": 0.05,
+     "font": "CAVEAT",
+     "anim": "FADE"
+    }
+   ],
+   "musicMood": "acoustic",
+   "colors": [
+    4294937152,
+    4294951014
+   ],
+   "beatEvery": 2
+  },
+  {
+   "id": "menu",
+   "name": "Today's menu",
+   "blurb": "Slow zooms on food with a bold price tag",
+   "aspect": "PORTRAIT_9_16",
+   "slotMs": [
+    2200,
+    2000,
+    2000,
+    2800
+   ],
+   "transition": "DIP_WHITE",
+   "transitionMs": 450,
+   "filter": "VIVID",
+   "photoMotion": [
+    "ZOOM_IN",
+    "ZOOM_OUT"
+   ],
+   "texts": [
+    {
+     "text": "TODAY'S SPECIAL",
+     "slot": 0,
+     "y": 0.18,
+     "size": 0.08,
+     "font": "ANTON",
+     "anim": "POP",
+     "color": 4294959437,
+     "outline": true
+    },
+    {
+     "text": "Order now",
+     "slot": 3,
+     "y": 0.8,
+     "size": 0.06,
+     "font": "MONTSERRAT",
+     "anim": "SLIDE_UP",
+     "background": true
+    }
+   ],
+   "musicMood": "upbeat",
+   "colors": [
+    4293212469,
+    4294945536
+   ]
+  },
+  {
+   "id": "wide-trip",
+   "name": "Road trip (wide)",
+   "blurb": "Landscape cuts for YouTube with a big title",
+   "aspect": "LANDSCAPE_16_9",
+   "slotMs": [
+    2500,
+    2000,
+    2000,
+    2000,
+    3000
+   ],
+   "transition": "FADE",
+   "transitionMs": 500,
+   "filter": "NONE",
+   "photoMotion": [
+    "PAN_RIGHT",
+    "ZOOM_IN"
+   ],
+   "texts": [
+    {
+     "text": "ON THE ROAD",
+     "slot": 0,
+     "y": 0.5,
+     "size": 0.11,
+     "font": "BEBAS",
+     "anim": "FADE",
+     "outline": true
+    }
+   ],
+   "musicMood": "inspiring",
+   "colors": [
+    4281240407,
+    4283417591
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "file": "sfx/soft-chime.m4a",
+   "title": "Soft chime",
+   "category": "notification",
+   "durationSec": 0.9,
+   "source": "Made for Edivo",
+   "license": "CC0 1.0"
+  },
+  {
+   "file": "sfx/soft-whoosh.m4a",
+   "title": "Soft whoosh",
+   "category": "transition",
+   "durationSec": 0.6,
+   "source": "Made for Edivo",
+   "license": "CC0 1.0"
+  }
+ ],
+ "overlays": [
+  {
+   "file": "overlays/warm-corner-leak.png",
+   "title": "Warm corner leak",
+   "category": "light",
+   "source": "Made for Edivo",
+   "license": "CC0 1.0"
+  },
+  {
+   "file": "overlays/soft-dots.png",
+   "title": "Soft dots",
+   "category": "particles",
+   "source": "Made for Edivo",
+   "license": "CC0 1.0"
+  }
+ ],
+ "music": []
+}
